@@ -17,4 +17,5 @@ WHERE last_name LIKE '%q%';
 
 # Part 2
 SELECT * FROM employees
-WHERE first_name IN ('Irena') OR 'Vidya' OR 'Maya';
+WHERE first_name = 'Irena' OR first_name = 'Vidya' OR  first_name ='Maya';
+
