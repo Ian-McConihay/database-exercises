@@ -25,6 +25,9 @@ WHERE first_name = 'Irena' OR first_name = 'Vidya' OR  first_name ='Maya' OR gen
 SELECT * FROM employees
 WHERE last_name LIKE 'E%' OR last_name LIKE '%E';
 
+SELECT * FROM employees
+WHERE last_name LIKE 'E%' AND last_name LIKE '%E';
+
 
 
 
