@@ -1,7 +1,13 @@
 USE codeup_test_dp;
-SELECT 'ALBUMS RELEASED BEFORE 1991' AS '';
+# SELECT 'ALBUMS RELEASED BEFORE 1991' AS '';
+
+
+
+
+
+
 DELETE FROM albums WHERE release_date < 1991;
-SELECT 'ALBUMS WITH GENRE ''DISCO''' AS '';
+
 DELETE FROM albums WHERE genre = 'disco';
-SELECT  'ALBUMS BY THE BEATLES' AS '';
-DELETE FROM albums WHERE artist_name = 'The Beatles';
+
+DELETE FROM albums WHERE artist_name = 'Whitney Houston';
