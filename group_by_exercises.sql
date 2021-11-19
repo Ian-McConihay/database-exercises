@@ -5,6 +5,7 @@ Use employees;
 SELECT DISTINCT title
 FROM titles;
 
+
 #3
 SELECT last_name
 FROM employees
@@ -38,6 +39,9 @@ GROUP BY last_name;
 
 
 #7
-
+SELECT COUNT(*), gender
+FROM employees
+WHERE first_name IN ('Irena', 'Vidya', 'Maya')
+GROUP BY gender;
 
 
